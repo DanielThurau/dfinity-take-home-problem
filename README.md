@@ -2,7 +2,7 @@
 
 ## Overview
 
-Hey guys! This is my solution to the take home problem. The implementation can be found in the `src/` directory and tests can be found in `tests/` directory. I'll be using this `README.md` for housekeeping, problem analysis including assumptions, problem walk through, pseudoscope, complexity analysis, tradeoffs, and code explanation. 
+Hey guys! This is my solution to the take home problem. The implementation can be found in the `dfinity_take_home_problem/` directory and tests can be found in `tests/` directory. I'll be using this `README.md` for housekeeping, problem analysis including assumptions, problem walk through, pseudoscope, complexity analysis, tradeoffs, and code explanation. 
 
 ## Usage
 
