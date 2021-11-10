@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dfinity-take-home-problem"
+version = "0.1.0"
+description = "Solution for the take home problem provided by DFinity."
+authors = ["Daniel Thurau <daniel.n.thurau@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "^21.10b0"
+coverage = "^6.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.run]
+omit = [".*", "*/site-packages/*", "tests/*"]
+
+[tool.poetry.scripts]
+main = "main:main"
