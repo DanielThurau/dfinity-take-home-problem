@@ -10,7 +10,16 @@ def buildTree():
         [
             TreeNode(
                 "luck",
-                [TreeNode("good"), TreeNode("!"), TreeNode("of", [TreeNode("best")])],
+                [
+                    TreeNode("good"), 
+                    TreeNode("!"), 
+                    TreeNode(
+                        "of", 
+                        [
+                            TreeNode("best")
+                        ]
+                    )
+                ],
             ),
             TreeNode("interviews"),
         ],
@@ -22,7 +31,7 @@ def main():
     logger.setLevel("INFO")
 
     root = buildTree()
-    label = "best"
+    label = "interviews"
     path_to_leaf = df.find_next_leaf(root, label)
 
     logging.info("Label: '%s', Path: %s", label, path_to_leaf)
