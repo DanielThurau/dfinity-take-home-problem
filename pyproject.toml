@@ -5,8 +5,8 @@ description = "Solution for the take home problem provided by DFinity."
 authors = ["Daniel Thurau <daniel.n.thurau@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-black = "^24.3"
+python = "^3.10"
+black = "^26.3.1"
 coverage = "^6.1.1"
 
 [tool.poetry.dev-dependencies]
